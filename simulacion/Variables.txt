@@ -1,0 +1,44 @@
+Variables:
+	numero de días a atender
+	contador de día
+	reloj
+	array de promedio de cada cosa en cada dia
+	Numero de personas atendidas en X días
+	suma total del tiempo en espera
+	suma total del tiempo en ser atendido
+	Variable que lleva conteo de minutos para añadir paciente cada 15 minutos y reiniciarse cada 15 minutos
+	Variable que lleva el conteo de minutos para añadir paciente sin cita y reiniciarse cada 20 minutos aproximadamente
+	Variable que lleva el conteo de paciente con cita y sin cita que están siendo atendidos actualmente
+
+
+Parámetros:
+	Llegada de personas con citas previas:
+		Cada 15 minutos llega un paciente
+		Horario de atención de 8am a 5pm
+		Se pueden atender solo 3 personas al mismo tiempo
+	Llegada de personas sin citas previas:
+		Sigue una distribución exponencial con media de 20
+		Se pueden atender solo 4 personas al mismo tiempo
+	Tiempo de la atención:
+		Sigue una distribución normal con media 20 minutos y 5 minutos de desviación estándar.
+	Cantidad de personal asistencial en el horario de atención al publico es:
+		8:00 a.m. – 11:00 a.m : 7
+		11:00 a.m. – 1:00 p.m : 3
+		1:00 p.m. – 3:00 p.m : 4
+		3:00 p.m. – 5:00 p.m : 7
+
+
+
+Calculos finales
+	promedio total de personas en espera
+	promedio total de personas en ser atendida
+	promedio de atencion por cada dia "un array puede guardar esto"
+	desviacion estandar de cada una
+	
+
+Condiciones iniciales
+	numero de días a atender
+	cada cuanto llega un paciente con cita y la cantidad maxima que puede ser atendida
+	exponencial de cada cuanto llega un paciente sin cita y la cantidad maxima que puede ser atendida
+	tiempo de atención normal y su desviación estándar.
+	Cantidad de personal asistencial en el horario de atención al publico.
