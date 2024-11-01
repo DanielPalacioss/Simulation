@@ -66,27 +66,27 @@ public class StatisticsView extends javax.swing.JFrame {
         jLabel2.setBackground(new java.awt.Color(153, 153, 255));
         jLabel2.setFont(new java.awt.Font("MV Boli", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 102, 204));
-        jLabel2.setText("Colum#3 = Average waiting time for people with appointments");
+        jLabel2.setText("Colum#3 = Average time for people to be seen by appointment");
 
         jLabel3.setBackground(new java.awt.Color(153, 153, 255));
         jLabel3.setFont(new java.awt.Font("MV Boli", 0, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(0, 102, 204));
-        jLabel3.setText("Colum#2 = Average waiting time for people with appointments");
+        jLabel3.setText("Colum#2 = Average waiting time for walk-ins");
 
         jLabel4.setBackground(new java.awt.Color(153, 153, 255));
         jLabel4.setFont(new java.awt.Font("MV Boli", 0, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 102, 204));
-        jLabel4.setText("Colum#4 = Average waiting time for people with appointments");
+        jLabel4.setText("Colum#4 = Average time of people to be attended without an appointment");
 
         jLabel5.setBackground(new java.awt.Color(153, 153, 255));
         jLabel5.setFont(new java.awt.Font("MV Boli", 0, 18)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(0, 102, 204));
-        jLabel5.setText("Colum#5 = Average waiting time for people with appointments");
+        jLabel5.setText("Colum#5 = Average time for people to arrive with an appointment");
 
         jLabel6.setBackground(new java.awt.Color(153, 153, 255));
         jLabel6.setFont(new java.awt.Font("MV Boli", 0, 18)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(0, 102, 204));
-        jLabel6.setText("Colum#6 = Average waiting time for people with appointments");
+        jLabel6.setText("Colum#6 = Average time of people arriving without an appointment");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -103,7 +103,7 @@ public class StatisticsView extends javax.swing.JFrame {
                     .addComponent(jLabel6)
                     .addComponent(jLabel5)
                     .addComponent(jLabel4))
-                .addContainerGap(299, Short.MAX_VALUE))
+                .addContainerGap(14, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -127,24 +127,30 @@ public class StatisticsView extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(homeBt)
-                .addGap(555, 555, 555))
             .addGroup(layout.createSequentialGroup()
-                .addGap(89, 89, 89)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 14, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(homeBt)
+                                .addGap(555, 555, 555))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1341, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addContainerGap())))))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 376, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(28, 28, 28)
+                .addGap(16, 16, 16)
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addComponent(homeBt)
                 .addContainerGap())
         );

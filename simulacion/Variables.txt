@@ -30,6 +30,19 @@ Parámetros:
 
 
 Calculos finales
+	Por dia:
+		Average waiting time for people with appointments - Tiempo promedio en espera de personas con cita
+		Average waiting time for walk-ins  Tiempo promedio en espera de personas sin cita
+
+		Average time for people to be seen by appointment - Tiempo promedio de personas en ser atendidas con cita
+		Average time of people to be attended without an appointment - Tiempo promedio de personas en ser atendidas sin cita
+
+		Average time for people to arrive with an appointment - Tiempo promedio de personas en llegar con cita
+
+		Average time of people arriving without an appointment - Tiempo promedio de personas en llegar sin cita
+
+
+
 	promedio total de personas en espera
 	promedio total de personas en ser atendida
 	promedio de atencion por cada dia "un array puede guardar esto"
@@ -42,3 +55,37 @@ Condiciones iniciales
 	exponencial de cada cuanto llega un paciente sin cita y la cantidad maxima que puede ser atendida
 	tiempo de atención normal y su desviación estándar.
 	Cantidad de personal asistencial en el horario de atención al publico.
+
+
+
+
+
+
+
+
+2 5 7 8 9 4 1 2 5 6 4 7 8 9 5 2 3 6
+
+1: 4,666666666666667
+2: 7
+3: 2,666666666666667
+4: 5,666666666666667
+5: 7,333333333333333
+6: 3,666666666666667
+total: 5,166666666666667
+
+
+
+13:13:28
+15:50:25
+
+2:36:57
+
+2:-37:0
+
+1:23:0
+
+si los minutos dan en negativo se le debe restar 1 a la hora y esos minutos en negativos restárselos a 60 para obtener los minutos que realmente pasaron
+
+La misma lógica seguir con segundos si da negativo restar un minuto
+
+luego de hacer eso proceso convertir todo a minutos, multiplicar las horas por 60 y sumarle los minutos. dividimos los segundo en 3600 y se lo sumamos también
