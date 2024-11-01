@@ -97,7 +97,7 @@
               </Group>
               <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
               <Component id="jPanel1" min="-2" pref="241" max="-2" attributes="0"/>
-              <EmptySpace pref="27" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="velocidadBt" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="velocidadInt" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
@@ -137,7 +137,7 @@
     <Component class="javax.swing.JLabel" name="walkIn_PatientsImg">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\aris-\OneDrive\Documentos\NetBeansProjects\simulacion\src\main\java\com\mycompany\Img\paciente.png"/>
+          <Image iconType="2" name="C:\Users\aris-\OneDrive\Documentos\JavaProjects\Simulation\simulacion\src\main\java\com\mycompany\Img\paciente.png"/>
         </Property>
       </Properties>
       <AuxValues>
@@ -147,7 +147,7 @@
     <Component class="javax.swing.JLabel" name="patientsByAppointmentImg">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\aris-\OneDrive\Documentos\NetBeansProjects\simulacion\src\main\java\com\mycompany\Img\paciente.png"/>
+          <Image iconType="2" name="C:\Users\aris-\OneDrive\Documentos\JavaProjects\Simulation\simulacion\src\main\java\com\mycompany\Img\paciente.png"/>
         </Property>
       </Properties>
       <AuxValues>
@@ -345,14 +345,14 @@
         <Component class="javax.swing.JLabel" name="WaitingImg">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\aris-\OneDrive\Documentos\NetBeansProjects\simulacion\src\main\java\com\mycompany\Img\pacientes en espera.png"/>
+              <Image iconType="2" name="C:\Users\aris-\OneDrive\Documentos\JavaProjects\Simulation\simulacion\src\main\java\com\mycompany\Img\pacientes en espera.png"/>
             </Property>
           </Properties>
         </Component>
         <Component class="javax.swing.JLabel" name="AttendingImg">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\aris-\OneDrive\Documentos\NetBeansProjects\simulacion\src\main\java\com\mycompany\Img\atencion.png"/>
+              <Image iconType="2" name="C:\Users\aris-\OneDrive\Documentos\JavaProjects\Simulation\simulacion\src\main\java\com\mycompany\Img\atencion.png"/>
             </Property>
           </Properties>
         </Component>
@@ -455,7 +455,7 @@
         <Component class="javax.swing.JLabel" name="finishedImg">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\aris-\OneDrive\Documentos\NetBeansProjects\simulacion\src\main\java\com\mycompany\Img\atendido.jpg"/>
+              <Image iconType="2" name="C:\Users\aris-\OneDrive\Documentos\JavaProjects\Simulation\simulacion\src\main\java\com\mycompany\Img\atendido.jpg"/>
             </Property>
           </Properties>
           <AuxValues>

@@ -60,9 +60,9 @@ public class SimulationView extends javax.swing.JFrame {
         reloj.setText("00:00:00");
         reloj.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED), "Hour", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.ABOVE_TOP, new java.awt.Font("Lucida Sans Typewriter", 3, 18), new java.awt.Color(204, 0, 204))); // NOI18N
 
-        walkIn_PatientsImg.setIcon(new javax.swing.ImageIcon("C:\\Users\\aris-\\OneDrive\\Documentos\\NetBeansProjects\\simulacion\\src\\main\\java\\com\\mycompany\\Img\\paciente.png")); // NOI18N
+        walkIn_PatientsImg.setIcon(new javax.swing.ImageIcon("C:\\Users\\aris-\\OneDrive\\Documentos\\JavaProjects\\Simulation\\simulacion\\src\\main\\java\\com\\mycompany\\Img\\paciente.png")); // NOI18N
 
-        patientsByAppointmentImg.setIcon(new javax.swing.ImageIcon("C:\\Users\\aris-\\OneDrive\\Documentos\\NetBeansProjects\\simulacion\\src\\main\\java\\com\\mycompany\\Img\\paciente.png")); // NOI18N
+        patientsByAppointmentImg.setIcon(new javax.swing.ImageIcon("C:\\Users\\aris-\\OneDrive\\Documentos\\JavaProjects\\Simulation\\simulacion\\src\\main\\java\\com\\mycompany\\Img\\paciente.png")); // NOI18N
 
         dia.setFont(new java.awt.Font("Sitka Text", 3, 24)); // NOI18N
         dia.setForeground(new java.awt.Color(51, 0, 255));
@@ -82,9 +82,9 @@ public class SimulationView extends javax.swing.JFrame {
         patientsByAppointment.setText("0");
         patientsByAppointment.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED), "Patients by appointment", javax.swing.border.TitledBorder.CENTER, javax.swing.border.TitledBorder.ABOVE_TOP, new java.awt.Font("Lucida Sans Typewriter", 3, 18), new java.awt.Color(204, 0, 204))); // NOI18N
 
-        WaitingImg.setIcon(new javax.swing.ImageIcon("C:\\Users\\aris-\\OneDrive\\Documentos\\NetBeansProjects\\simulacion\\src\\main\\java\\com\\mycompany\\Img\\pacientes en espera.png")); // NOI18N
+        WaitingImg.setIcon(new javax.swing.ImageIcon("C:\\Users\\aris-\\OneDrive\\Documentos\\JavaProjects\\Simulation\\simulacion\\src\\main\\java\\com\\mycompany\\Img\\pacientes en espera.png")); // NOI18N
 
-        AttendingImg.setIcon(new javax.swing.ImageIcon("C:\\Users\\aris-\\OneDrive\\Documentos\\NetBeansProjects\\simulacion\\src\\main\\java\\com\\mycompany\\Img\\atencion.png")); // NOI18N
+        AttendingImg.setIcon(new javax.swing.ImageIcon("C:\\Users\\aris-\\OneDrive\\Documentos\\JavaProjects\\Simulation\\simulacion\\src\\main\\java\\com\\mycompany\\Img\\atencion.png")); // NOI18N
 
         punto.setSelected(true);
         punto.setEnabled(false);
@@ -150,7 +150,7 @@ public class SimulationView extends javax.swing.JFrame {
             }
         });
 
-        finishedImg.setIcon(new javax.swing.ImageIcon("C:\\Users\\aris-\\OneDrive\\Documentos\\NetBeansProjects\\simulacion\\src\\main\\java\\com\\mycompany\\Img\\atendido.jpg")); // NOI18N
+        finishedImg.setIcon(new javax.swing.ImageIcon("C:\\Users\\aris-\\OneDrive\\Documentos\\JavaProjects\\Simulation\\simulacion\\src\\main\\java\\com\\mycompany\\Img\\atendido.jpg")); // NOI18N
 
         waiting.setFont(new java.awt.Font("Sitka Text", 3, 24)); // NOI18N
         waiting.setForeground(new java.awt.Color(51, 0, 255));
@@ -329,7 +329,7 @@ public class SimulationView extends javax.swing.JFrame {
                         .addComponent(reloj)))
                 .addGap(32, 32, 32)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 241, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 27, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(velocidadBt)
                     .addComponent(velocidadInt, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)
